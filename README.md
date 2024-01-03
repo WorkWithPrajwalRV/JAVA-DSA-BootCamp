@@ -6,8 +6,11 @@ This GitHub repository serves as a showcase of my progress and the projects I bu
 What you'll find here:
 
 📚 Java Learning: Code snippets, projects, and exercises as I progress in learning Java programming language.
+
 🧠 DSA Exploration: Implementations of various Data Structures and Algorithms as I strengthen my problem-solving skills.
+
 💻 Development Projects: Real-world applications and projects showcasing my evolving development skills.
+
 Why this repository?
 This space is not just a collection of code but a reflection of my learning journey. Feel free to explore, provide feedback, or join me on this exciting adventure of continuous improvement.
 
