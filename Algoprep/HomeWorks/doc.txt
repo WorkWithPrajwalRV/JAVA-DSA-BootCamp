@@ -1,0 +1,7 @@
+HomeWorks are there to be completed in time :
+Rules to follow HomeWorks efficiantly :
+1. Breakdown problems and solve one by one
+2. Write Algorithmic solution for the problems
+3. Always write pseudocode before wrinting code in the editor
+4. Dry run before running codes on IDE
+5. Find and remember for pattern used to solve that problem(FLASHCARD)
