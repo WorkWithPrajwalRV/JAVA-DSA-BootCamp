@@ -1,5 +1,7 @@
 To find largest number between two or three or more numbers : 
 
+METHOD 1 =>
+
 Consider starting number b/w three numbers as maximum 
 and using if else statemnts check is second and third digits are greater than max 
 and assign that digit which is greater tham max 
@@ -15,3 +17,12 @@ ex : - Largest b/w three numbers
         max = c;
     > print max;
     > end  
+
+METHOD 2 => Math.max function
+
+ex :- Largest b/w three numbers 
+    > start
+    > input a, b, c
+    > int max = Math.max(c,Math.max(a, b));
+    > print (max);
+    > end
