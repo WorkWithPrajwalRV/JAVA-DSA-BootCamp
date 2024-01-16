@@ -10,3 +10,4 @@ public class Message {
         System.out.println("Good Afternoon " + name);
     }
 }
+ 

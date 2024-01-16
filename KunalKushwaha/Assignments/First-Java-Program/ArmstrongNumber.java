@@ -16,7 +16,7 @@ public class ArmstrongNumber {
 
             int digits = 0;
             int result = 0;
-            int originalNummber = number;
+            int originalNummber = number; 
             
             // Conuting digits in a number
             while (originalNummber != 0) {

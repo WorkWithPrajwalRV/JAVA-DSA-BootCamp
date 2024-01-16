@@ -16,4 +16,4 @@ public class LargestNumber {
         }
         System.out.println("Largest between " + num1 + " & " + num2 + " largest is " + largest);
     }
-}
+} 

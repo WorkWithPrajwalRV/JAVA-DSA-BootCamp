@@ -14,7 +14,7 @@ public class BasicCalculator {
         int sum = 0;
 
         if (op == '+') {
-            sum = a + b;
+            sum = a + b; 
         } 
         if (op == '-') {
             sum = a - b;
