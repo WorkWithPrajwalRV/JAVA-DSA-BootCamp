@@ -1,0 +1,36 @@
+To find Armstrong Number between two given number :
+
+Armstrong Number => 153 = 1^3 + 5^3 + 3^3 = 153
+
+Step 1 -> Take input number range as StartRange and EndRange
+step 2 -> check the number of digits in a number
+step 3 -> perform Armstrong number operation on that number
+step 4 -> checking given number is armstrong or not 
+step 5 -> until max range number reaches repeat steps -> 2, 3, & 4
+
+Pseudo Code : 
+> Start
+> input StartRange and EndRange
+> for (int number = StartRange; number <= EndRange; number++)
+    
+    int digits = 0;
+    int result = 0;
+    int originalNumber = number;
+
+    // Counting the digits in a number to get power
+    while (originalNumber != 0)
+        originalNumber /= 10;
+        ++digits;
+    
+    originalNumber = number
+
+    // performing Armstrong operation
+    while (originalNumber != 0)
+        int remainder = originalNumber % 10;
+        result += Math.pow(remainder, digits);
+        originalNumber /= 10;
+    
+    // printing armstrong number b/w the range
+    if (result == number) 
+        print(number);
+> end        

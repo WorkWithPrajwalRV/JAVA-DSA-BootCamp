@@ -1,0 +1,21 @@
+To calculate Fibonacci Series up to n numbers :
+
+Fibonacci numbers : 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ........
+=> consider first two numbers as n1 = 0 and n2 = 1
+=> to get next number do : n3 = n2 + n1
+=> to get entire serries numbers : substitute n1 -> n2 
+                                              n2 -> n3
+                                              repeat the three steps to get seeries upto nth seeries
+
+ex :  calculate Fibonacci Series up to n numbers :
+
+> start
+> input n number
+> int n1 = 0, n2 = 1, n3, count = n;
+> print (n1 + " " + n2);
+> for (int i = 2; i <= count; i++) 
+        n3 = n1 + n2;
+        print (" " + n3);
+        n1 = n2;
+        n2 = n3;
+> end

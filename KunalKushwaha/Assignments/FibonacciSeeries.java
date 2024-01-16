@@ -7,7 +7,7 @@ public class FibonacciSeeries {
         // Fibonacci number => 1, 1, 2, 3, 5, 8, 13 .....
         Scanner in = new Scanner(System.in);
 
-        int n1 =0, n2 = 1, n3, count = in.nextInt();
+        int n1 = 0, n2 = 1, n3, count = in.nextInt();
         System.out.print(n1 + " " + n2); // Printing 0 and 1
 
         for(int i=2;i<=count;++i) {

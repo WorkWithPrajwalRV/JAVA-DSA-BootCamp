@@ -1,0 +1,30 @@
+To find out whether the given String is Palindrome or not : 
+
+Naive Method : or Reversing original string and comparing with original :
+
+step 1 -> input a Original String
+step 2 -> Converst string to lowercase
+step 3 -> let String rev = " ";
+step 4 -> reversong  str and store in rev in reverse order
+step 5 -> Check Original String == rev, if yes = print Palindrome
+                                        if no = print Not a Palindrome
+
+Pseudocode : 
+
+> start
+> input String
+
+// converting original string to lowercase and stored in str :
+> String str = to.lowercase(); 
+
+// Revering a string :
+> String rev = " ";
+> for (int i = str.length() - 1; i >= 0 ; i--) 
+    rev = rev + str.charAt(i);
+
+checking and printing the string and reversed string are one and the same or not : 
+> if (str == rev)
+    print(Plaindrome)
+  else 
+    print(Not a Palindrome)
+> end
