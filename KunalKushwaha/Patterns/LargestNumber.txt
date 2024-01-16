@@ -1,0 +1,17 @@
+To find largest number between two or three or more numbers : 
+
+Consider starting number b/w three numbers as maximum 
+and using if else statemnts check is second and third digits are greater than max 
+and assign that digit which is greater tham max 
+and pronce checking finished to all digits print the max 
+
+ex : - Largest b/w three numbers 
+    > start
+    > input a, b, c
+    > let max = a;
+    > if b > max
+        max = b;
+      else if c > max;
+        max = c;
+    > print max;
+    > end  
