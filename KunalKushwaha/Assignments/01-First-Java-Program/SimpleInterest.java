@@ -12,10 +12,8 @@ public class SimpleInterest {
         System.out.print("Enter the Rate of interest you ioccured : ");
         float r = in.nextFloat();
 
-
         double SimpleInterest = (p * t * r) / 100;
         System.out.println("Your loan's Effective Simple Interest is  : " + SimpleInterest);
-
-    }
-    
+    }   
 }
+
