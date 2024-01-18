@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
-public class AreaOfIsoscelesTriangle {
+public class VolumeOfCone {
     public static void main(String[] args) {
+        // Volume Of Cone Java Program
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the Radius and Height of the cone : ");
         System.out.print("Radius = ");
