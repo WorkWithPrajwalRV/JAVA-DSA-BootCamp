@@ -5,35 +5,37 @@ public class RotationOfArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
-        int k = input.nextInt();
-        int ek = k % n;
+        
         int[] rotateArr = new int[n];
         for (int i = 0; i < rotateArr.length; i++) {
             rotateArr[i] = input.nextInt();
         }
-        
-        int s = 0;
-        int e = n-1;
-        // Step 1 => Reverse whole array
-        ReverseArr(rotateArr, s, e);
+        int k = input.nextInt();
+        int ek = k % n;
 
-        // Step 1 => Reverse array from 0 to k-1
-        ReverseArr(rotateArr, s, ek-1);
-
-        // Step 1 => Reverse array from k to n-1
+        // Step 1 : reverse whole array :
+        ReverseArr(rotateArr, 0, n-1);
+        // Step 2 : reverse array from 0 to ek-1:
+        ReverseArr(rotateArr, 0, ek-1);
+        // Step 3 : reverse array from ek to n-1 :
         ReverseArr(rotateArr, ek, n-1);
-
-        System.out.println(Arrays.toString(rotateArr));
+        for (int i = 0; i < rotateArr.length; i++) {
+            System.out.print(rotateArr[i] + " ");
+        }
+        
     }
     public static void ReverseArr(int[] rotateArr,int s,int e) {
         int n = rotateArr.length;
-        while (s < e) {
-            int temp = rotateArr[s];
-            rotateArr[s] = rotateArr[e];
-            rotateArr[e] = temp;
+        int sp = s;
+        int ep = e;
+        while (sp < ep) {
+            int temp = rotateArr[sp];
+            rotateArr[sp] = rotateArr[ep];
+            rotateArr[ep] = temp;
 
-            s++;
-            e--;
+            sp++;
+            ep--;
         }
     }
 }
+
